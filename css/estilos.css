@@ -1,0 +1,424 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #DADADD;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, !important;
+}
+
+.main_header ul {
+    font-size: 0;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+/*Inico movile*/
+.main_header_nav a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.main_header {
+    background-color: #6E6E80;
+    border-radius: 5px;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_header_nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.main_header_nav li {
+    padding-left: 30px;
+}
+
+.main_header_nav a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main_contenido {
+    text-align: center;
+    padding: 25px;
+}
+
+.empresa {
+    position: relative;
+    top: 9px;
+}
+
+.quienes_somos {
+    position: relative;
+    top: 15px;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    padding: 29px 0 59px 20px;
+    margin: auto;
+    background-color: #6E6E80;
+    border: solid;
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+.footer_links {
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.llamenos {
+    color: white;
+    width: 210px;
+    border-radius: 41px;
+    border: 2px solid black;
+    border-radius: 41px;
+    padding: 5px 1px;
+
+}
+
+.email {
+    color: white;
+    width: 210px;
+    border-radius: 41px;
+    border: 2px solid black;
+    border-radius: 41px;
+    padding: 5px 1px;
+
+
+}
+
+.formu__ {
+    color: white;
+    border: 2px solid black;
+    border-radius: 41px;
+    padding: 5px 1px;
+    width: 210px;
+    border-radius: 41px;
+}
+
+/*Fin pagina inicio/
+/*Inicio pagina contacto*/
+.formulario {
+    padding: 1px
+}
+
+.formulario-img {
+
+    background-image: url(../img/envase-pet.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.contactanos {
+    position: relative;
+    left: 20px;
+}
+
+.formulario {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario_nombre {
+    padding: 20px;
+}
+
+.formulario_apellido {
+    padding: 20px;
+
+}
+
+.formulario_mail {
+    padding: 20px;
+    position: relative;
+    left: 8px;
+
+}
+
+.formulario_numero {
+    padding: 20px;
+
+}
+
+.formulario_mensaje {
+    padding: 20px;
+
+}
+
+.formulario_mensaje_cuadro {
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.formulario_enviar {
+    padding: 20px;
+
+
+}
+
+.formulario_enviar_bottom {
+    text-decoration: none;
+    padding: 5px 40px;
+    color: white;
+    border: 2px solid black;
+    background-color: green;
+    border-radius: 41px;
+    text-align: center;
+    height: 36px;
+    box-shadow: 1px 0px 10px 2px greenyellow;
+    position: relative;
+    left: 35px;
+    bottom: 35px;
+}
+
+/*Fin pagina contacto*/
+/*Inicio pagina prodocutos */
+.productos_compra {
+    display: flex;
+    flex-direction: column;
+}
+
+.frasco_1 {
+    margin: 15px;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    border: solid black;
+}
+
+.informacion {
+    background: rgb(110, 110, 128);
+    background: radial-gradient(circle, rgba(110, 110, 128, 1) 0%, rgba(218, 218, 221, 1) 100%);
+    border-radius: 42px;
+    padding: 10px 5px 10px 5px;
+    margin: 10px;
+}
+
+/*Fin pagina productos*/
+
+
+/*Fin movile*/
+
+/*Inicio Tablet*/
+@media(min-width:768px) {
+
+    /*Pagina inicio*/
+    .main_header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .productos {
+        display: grid;
+        grid-template-areas:
+            "title envase1 title envase2"
+            "title envase3"
+        ;
+        grid-template-columns: 1fr 1fr ;
+        
+        align-items: center;
+
+    }
+
+    .footer_links {
+        font-size: 18px;
+        text-decoration: none;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0 10px;
+    }
+
+    /*Fin pagina inicio*/
+
+    /*Pagina productos*/
+    .frasco_1 {
+        margin: 30px;
+    }
+
+    /*Fin padigina productos*/
+
+    /*Pagina Contacto*/
+    .formulario {
+        padding: 100px
+    }
+
+    .whatsapp {
+        bottom: 40px;
+    }
+
+    /*Fin pagina contacto*/
+
+
+
+}
+
+/*Fin Tablet*/
+
+/*Inicio desktop*/
+@media (min-width:992px) {
+
+    /*Pagina inicio*/
+    .whatsapp {
+        bottom: 40px;
+    }
+
+    .main_header img {
+        width: 150px;
+    }
+
+    .main_header {
+
+        height: 124px;
+
+        display: grid;
+        grid-template-columns: 200px auto;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .main_header_nav {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-content: end;
+        gap: 0 20px;
+    }
+
+    .main_header_nav_button {
+        border: 2px solid black;
+        border-radius: 41px;
+        padding: 5px 15px;
+        position: relative;
+        bottom: 5px;
+        text-align: center;
+        position: relative;
+        width: 145px;
+    }
+
+    .main_header_nav_button:hover {
+        transform: scale(1.1);
+        background-color: #6E6E80;
+        border-radius: 42px;
+    }
+
+    .main_contenido {
+        padding: 30px;
+    }
+
+    .empresa {
+        position: relative;
+        top: 30px;
+    }
+
+    .quienes_somos {
+        position: relative;
+        top: 90px;
+
+    }
+
+    .productos {
+        display: grid;
+        grid-template-areas:
+            "title producto1 title producto2 title producto3"
+        ;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        padding: 140px;
+        justify-content: space-between;
+        position: relative;
+        left: 150px;
+    }
+
+    footer {
+        padding: 19px 0 59px 20px;
+        display: grid;
+        grid-template-columns: 200px auto;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer_links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0 200px;
+    }
+
+    /*Fin pagina inicio*/
+    /*Inicio pagina productos*/
+    .productos_compra {
+        display: grid;
+        grid-template-areas:
+            "title envase1 title envase2"
+            "title envase3 title envase4"
+            "title envase5 title envase6"
+        ;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+
+    }
+
+    .frasco_1 {
+        margin: 100px;
+    }
+
+    .frasco_1:hover {
+        transform: scale(1.1);
+        transition: all 1s;
+    }
+
+    .informacion {
+        margin: 15px;
+    }
+
+    /*Fin pagina productos*/
+
+    /*Pagina Contacto*/
+    .formulario {
+        padding: 50px;
+    }
+
+    .formulario_enviar_bottom {
+        position: relative;
+        left: 40px;
+    }
+
+    /*Fin pagina contacto*/
+}
+
+/*Fin desktop*/
