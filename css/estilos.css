@@ -5,7 +5,7 @@
 
 body {
     background-color: #DADADD;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,  !important;
 }
 
 .main_header ul {
@@ -51,11 +51,6 @@ a {
     padding-left: 30px;
 }
 
-.main_header_nav a {
-    font-size: 18px;
-    font-weight: 500;
-}
-
 .main_contenido {
     text-align: center;
     padding: 25px;
@@ -86,7 +81,6 @@ footer {
     border: solid;
     border-radius: 5px;
     align-items: center;
-
 }
 
 .footer_links {
@@ -94,8 +88,6 @@ footer {
     text-decoration: none;
     display: flex;
     flex-direction: column;
-
-
 }
 
 .llamenos {
@@ -103,7 +95,6 @@ footer {
     width: 210px;
     border-radius: 41px;
     border: 2px solid black;
-    border-radius: 41px;
     padding: 5px 1px;
 
 }
@@ -113,10 +104,7 @@ footer {
     width: 210px;
     border-radius: 41px;
     border: 2px solid black;
-    border-radius: 41px;
     padding: 5px 1px;
-
-
 }
 
 .formu__ {
@@ -125,22 +113,17 @@ footer {
     border-radius: 41px;
     padding: 5px 1px;
     width: 210px;
-    border-radius: 41px;
 }
 
 /*Fin pagina inicio/
 /*Inicio pagina contacto*/
-.formulario {
-    padding: 1px
-}
+
 
 .formulario-img {
-
     background-image: url(../img/envase-pet.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
 
 .contactanos {
@@ -149,6 +132,7 @@ footer {
 }
 
 .formulario {
+    padding: 1px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -188,8 +172,6 @@ footer {
 
 .formulario_enviar {
     padding: 20px;
-
-
 }
 
 .formulario_enviar_bottom {
@@ -251,10 +233,8 @@ footer {
             "title envase1 title envase2"
             "title envase3"
         ;
-        grid-template-columns: 1fr 1fr ;
-        
+        grid-template-columns: 1fr 1fr;
         align-items: center;
-
     }
 
     .footer_links {
@@ -304,9 +284,7 @@ footer {
     }
 
     .main_header {
-
         height: 124px;
-
         display: grid;
         grid-template-columns: 200px auto;
         justify-content: space-around;
@@ -327,7 +305,6 @@ footer {
         position: relative;
         bottom: 5px;
         text-align: center;
-        position: relative;
         width: 145px;
     }
 
@@ -349,7 +326,6 @@ footer {
     .quienes_somos {
         position: relative;
         top: 90px;
-
     }
 
     .productos {
@@ -358,7 +334,6 @@ footer {
             "title producto1 title producto2 title producto3"
         ;
         grid-template-columns: 1fr 1fr 1fr;
-
         padding: 140px;
         justify-content: space-between;
         position: relative;
