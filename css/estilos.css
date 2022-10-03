@@ -206,7 +206,6 @@ footer {
 }
 
 .informacion {
-    background: rgb(110, 110, 128);
     background: radial-gradient(circle, rgba(110, 110, 128, 1) 0%, rgba(218, 218, 221, 1) 100%);
     border-radius: 42px;
     padding: 10px 5px 10px 5px;
@@ -214,6 +213,39 @@ footer {
 }
 
 /*Fin pagina productos*/
+/*Inicio pagina novedades*/
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.nuevos_productos {
+    text-align: center;
+    padding: 30px;
+    color: #41415c;
+}
+
+.carousel-inner {
+    margin: auto;
+}
+
+.carousel-item {
+    width: 360px;
+    align-items: center;
+    text-align: center;
+    margin: 8px;
+    background-color: white;
+    border: solid;
+    border-radius: 5px;
+}
+.boton_nuevo {
+    width: 170px;
+}
+
+/*Fin pagina novedades*/
 
 
 /*Fin movile*/
@@ -252,8 +284,26 @@ footer {
         margin: 30px;
     }
 
-    /*Fin padigina productos*/
+    /*Fin pagina productos*/
 
+    /*Inicio pagina novedades*/
+    .nuevos_productos {
+        padding: 50px;
+    }
+    
+    .carousel-item {
+        position: relative;
+        left: 150px;
+        width: 450px;
+    }
+
+    .boton_nuevo {
+        width: 200px;
+        align-items: center;
+    }
+
+
+    /*Fin pagina novedades*/
     /*Pagina Contacto*/
     .formulario {
         padding: 100px
@@ -264,9 +314,6 @@ footer {
     }
 
     /*Fin pagina contacto*/
-
-
-
 }
 
 /*Fin Tablet*/
@@ -382,6 +429,20 @@ footer {
     }
 
     /*Fin pagina productos*/
+    /*Inicio pagina novedades*/
+    .nuevos_productos {
+        padding: 60px;
+    }
+
+    .carousel-item {
+        margin: 150px;
+        width: 550px;
+        position: relative;
+        left: 500px;
+    }
+
+
+    /*Fin pagina novedades*/
 
     /*Pagina Contacto*/
     .formulario {
