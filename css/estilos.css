@@ -115,8 +115,60 @@ footer {
     width: 210px;
 }
 
-/*Fin pagina inicio/
-/*Inicio pagina contacto*/
+/*Fin página inicio/
+/*Incio página servicios*/
+.servicios_prestados{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+}
+.principal_moto_envios{
+    background-color: aquamarine;
+    border-radius: 42px;
+    margin: 15px;
+}
+.moto_envios{
+    width: 150px;
+}
+.principal_camion_envios{
+    background-color: aquamarine;
+    margin: 15px;
+    border-radius: 42px;
+}
+.camion_envios{
+    width: 150px;
+}
+.principal_asesoramiento_telefono{
+    background-color: aquamarine;
+    margin: 15px;
+    border-radius: 42px;
+}
+.asesoramiento_telefono{
+    width: 100px;
+}
+.principal_metodo_de_pago{
+    background-color: aquamarine;
+    margin: 15px;
+    border-radius: 42px;
+}
+.metodo_de_pago{
+    width: 200px;
+}
+.logo_servicios{
+    width: 200px;
+}
+.principal_logo_servicios{
+    background-color: aquamarine;
+    margin: 15px;
+    border-radius: 42px;
+}
+.parrafo_servicios{
+    text-align: center;
+    font-size: 20px;
+}
+/*Fin página servicios*/
+/*Inicio página contacto*/
 
 
 .formulario-img {
@@ -189,8 +241,8 @@ footer {
     bottom: 35px;
 }
 
-/*Fin pagina contacto*/
-/*Inicio pagina prodocutos */
+/*Fin página contacto*/
+/*Inicio página prodocutos */
 .productos_compra {
     display: flex;
     flex-direction: column;
@@ -212,8 +264,8 @@ footer {
     margin: 10px;
 }
 
-/*Fin pagina productos*/
-/*Inicio pagina novedades*/
+/*Fin página productos*/
+/*Inicio página novedades*/
 .carousel-control-prev-icon {
     background-color: black;
 }
@@ -241,11 +293,12 @@ footer {
     border: solid;
     border-radius: 5px;
 }
+
 .boton_nuevo {
     width: 170px;
 }
 
-/*Fin pagina novedades*/
+/*Fin página novedades*/
 
 
 /*Fin movile*/
@@ -253,7 +306,7 @@ footer {
 /*Inicio Tablet*/
 @media(min-width:768px) {
 
-    /*Pagina inicio*/
+    /*Página inicio*/
     .main_header {
         flex-direction: row;
         justify-content: space-around;
@@ -277,20 +330,52 @@ footer {
         gap: 0 10px;
     }
 
-    /*Fin pagina inicio*/
+    /*Fin página inicio*/
+    /*Incio página servicios*/
+.principal_moto_envios{
+    margin: 15px;
+}
+.moto_envios{
+    width: 150px;
+}
+.principal_camion_envios{
+    margin: 15px;
+}
+.camion_envios{
+    width: 150px;
+}
+.principal_asesoramiento_telefono{
+    margin: 15px;
+}
+.asesoramiento_telefono{
+    width: 100px;
+}
+.principal_metodo_de_pago{
+    margin: 15px;
+}
+.metodo_de_pago{
+    width: 200px;
+}
+.principal_logo_servicios{
+    margin: 15px;
+}
+.logo_servicios{
+    width: 200px;
+}
+/*Fin página servicios*/
 
-    /*Pagina productos*/
+    /*Página productos*/
     .frasco_1 {
         margin: 30px;
     }
 
-    /*Fin pagina productos*/
+    /*Fin página productos*/
 
-    /*Inicio pagina novedades*/
+    /*Inicio página novedades*/
     .nuevos_productos {
         padding: 50px;
     }
-    
+
     .carousel-item {
         position: relative;
         left: 150px;
@@ -303,8 +388,8 @@ footer {
     }
 
 
-    /*Fin pagina novedades*/
-    /*Pagina Contacto*/
+    /*Fin página novedades*/
+    /*Página Contacto*/
     .formulario {
         padding: 100px
     }
@@ -313,7 +398,7 @@ footer {
         bottom: 40px;
     }
 
-    /*Fin pagina contacto*/
+    /*Fin página contacto*/
 }
 
 /*Fin Tablet*/
@@ -321,7 +406,7 @@ footer {
 /*Inicio desktop*/
 @media (min-width:992px) {
 
-    /*Pagina inicio*/
+    /*Página inicio*/
     .whatsapp {
         bottom: 40px;
     }
@@ -401,8 +486,54 @@ footer {
         gap: 0 200px;
     }
 
-    /*Fin pagina inicio*/
-    /*Inicio pagina productos*/
+    /*Fin página inicio*/
+
+    /*Inicio página servicios*/
+    .servicios_prestados{
+        width: 50px;
+        margin: 50px;
+        padding: 50px;
+        position: relative;
+        left: 500px;
+    }
+    .principal_moto_envios{
+        width: 700px;
+    }
+    .moto_envios{
+        width: 200px;
+    }
+    .principal_camion_envios{
+        width: 680px;
+        margin: 20px;
+    }
+    .camion_envios{
+        width: 250px;
+    }
+    .principal_asesoramiento_telefono{
+        width: 680px;
+        margin: 20px;
+    }
+    .asesoramiento_telefono{
+        width: 130px;
+    }
+    .principal_metodo_de_pago{
+        width: 680px;
+    }
+    .metodo_de_pago{
+        width: 250px;
+    }
+    .principal_logo_servicios{
+        width: 680px;
+        margin: 20px;
+    }
+    .logo_servicios{
+        width: auto;
+    }
+    
+    
+    /*Fin página servicios*/
+
+    /*Inicio página productos*/
     .productos_compra {
         display: grid;
         grid-template-areas:
@@ -412,7 +543,6 @@ footer {
         ;
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
-
     }
 
     .frasco_1 {
@@ -428,8 +558,9 @@ footer {
         margin: 15px;
     }
 
-    /*Fin pagina productos*/
-    /*Inicio pagina novedades*/
+    /*Fin página productos*/
+
+    /*Inicio página novedades*/
     .nuevos_productos {
         padding: 60px;
     }
@@ -442,9 +573,9 @@ footer {
     }
 
 
-    /*Fin pagina novedades*/
+    /*Fin página novedades*/
 
-    /*Pagina Contacto*/
+    /*Página Contacto*/
     .formulario {
         padding: 50px;
     }
@@ -453,8 +584,6 @@ footer {
         position: relative;
         left: 40px;
     }
-
-    /*Fin pagina contacto*/
+    /*Fin página contacto*/
 }
-
 /*Fin desktop*/
