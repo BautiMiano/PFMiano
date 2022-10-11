@@ -1,0 +1,68 @@
+/*Movile*/
+/*Inicio página novedades*/
+
+.nuevos_productos {
+    text-align: center;
+    padding: 30px;
+    color: #41415c;
+}
+
+.carousel-inner {
+    margin: auto;
+}
+
+.carousel-item {
+    width: 360px;
+    align-items: center;
+    text-align: center;
+    margin: 8px;
+    background-color: white;
+    border: solid;
+    border-radius: 5px;
+}
+
+.boton_nuevo {
+    width: 170px;
+}
+
+/*Fin página novedades*/
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+    /*Inicio página novedades*/
+    .nuevos_productos {
+        padding: 50px;
+    }
+
+    .carousel-item {
+        position: relative;
+        left: 150px;
+        width: 450px;
+    }
+
+    .boton_nuevo {
+        width: 200px;
+        align-items: center;
+    }
+
+    /*Fin página novedades*/
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+
+    /*Inicio página novedades*/
+    .nuevos_productos {
+        padding: 60px;
+    }
+
+    .carousel-item {
+        margin: 150px;
+        width: 550px;
+        position: relative;
+        left: 500px;
+    }
+
+    /*Fin página novedades*/
+}

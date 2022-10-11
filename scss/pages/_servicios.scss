@@ -1,0 +1,170 @@
+/*Movile*/
+/*Página servicios*/
+.servicios_prestados {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+}
+
+.principal_moto_envios {
+    background-color: aquamarine;
+    border-radius: 42px;
+    margin: 15px;
+}
+
+.moto_envios {
+    width: 150px;
+}
+
+.principal_camion_envios {
+    background-color: aquamarine;
+    margin: 15px;
+    border-radius: 42px;
+}
+
+.camion_envios {
+    width: 150px;
+}
+
+.principal_asesoramiento_telefono {
+    background-color: aquamarine;
+    margin: 15px;
+    border-radius: 42px;
+}
+
+.asesoramiento_telefono {
+    width: 100px;
+}
+
+.principal_metodo_de_pago {
+    background-color: aquamarine;
+    margin: 15px;
+    border-radius: 42px;
+}
+
+.metodo_de_pago {
+    width: 200px;
+}
+
+.logo_servicios {
+    width: 200px;
+}
+
+.principal_logo_servicios {
+    background-color: aquamarine;
+    margin: 15px;
+    border-radius: 42px;
+}
+
+.parrafo_servicios {
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Fin página servicios*/
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+    /*Incio página servicios*/
+    .principal_moto_envios {
+        margin: 15px;
+    }
+
+    .moto_envios {
+        width: 150px;
+    }
+
+    .principal_camion_envios {
+        margin: 15px;
+    }
+
+    .camion_envios {
+        width: 150px;
+    }
+
+    .principal_asesoramiento_telefono {
+        margin: 15px;
+    }
+
+    .asesoramiento_telefono {
+        width: 100px;
+    }
+
+    .principal_metodo_de_pago {
+        margin: 15px;
+    }
+
+    .metodo_de_pago {
+        width: 200px;
+    }
+
+    .principal_logo_servicios {
+        margin: 15px;
+    }
+
+    .logo_servicios {
+        width: 200px;
+    }
+
+    /*Fin página servicios*/
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+
+    /*Inicio página servicios*/
+    .servicios_prestados {
+        width: 50px;
+        margin: 50px;
+        padding: 50px;
+        position: relative;
+        left: 500px;
+    }
+
+    .principal_moto_envios {
+        width: 700px;
+    }
+
+    .moto_envios {
+        width: 200px;
+    }
+
+    .principal_camion_envios {
+        width: 680px;
+        margin: 20px;
+    }
+
+    .camion_envios {
+        width: 250px;
+    }
+
+    .principal_asesoramiento_telefono {
+        width: 680px;
+        margin: 20px;
+    }
+
+    .asesoramiento_telefono {
+        width: 130px;
+    }
+
+    .principal_metodo_de_pago {
+        width: 680px;
+    }
+
+    .metodo_de_pago {
+        width: 250px;
+    }
+
+    .principal_logo_servicios {
+        width: 680px;
+        margin: 20px;
+    }
+
+    .logo_servicios {
+        width: auto;
+    }
+
+    /*Fin página servicios*/
+}

@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: $cta;
+}
+
+.main_header ul {
+    font-size: 0px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+/*Inico movile*/
+.main_header_nav a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.main_header {
+    background-color: #6E6E80;
+    border-radius: 5px;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &_nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+}
+
+
+.main_header_nav li {
+    padding-left: 30px;
+}
+
+.main_contenido {
+    text-align: center;
+    padding: 25px;
+}
+
+.empresa {
+    position: relative;
+    top: 9px;
+}
+
+.quienes_somos {
+    position: relative;
+    top: 15px;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    padding: 29px 0 59px 20px;
+    margin: auto;
+    background-color: #6E6E80;
+    border: solid;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.footer_links {
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.llamenos {
+    color: white;
+    width: 210px;
+    border-radius: 41px;
+    border: 2px solid black;
+    padding: 5px 1px;
+}
+
+.email {
+    color: white;
+    width: 210px;
+    border-radius: 41px;
+    border: 2px solid black;
+    padding: 5px 1px;
+}
+
+.formu__ {
+    color: white;
+    border: 2px solid black;
+    border-radius: 41px;
+    padding: 5px 1px;
+    width: 210px;
+}
+
+/*Fin página inicio/
+
+/*Fin movile*/
+
+/*Inicio Tablet*/
+@media (min-width: 768px) {
+
+    /*Página inicio*/
+    .main_header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .productos {
+        display: grid;
+        grid-template-areas: "title envase1 title envase2"
+            "title envase3";
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .footer_links {
+        font-size: 18px;
+        text-decoration: none;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0 10px;
+    }
+
+    /*Fin página inicio*/
+
+}
+
+/*Fin Tablet*/
+/*Inicio desktop*/
+@media (min-width: 992px) {
+
+    /*Página inicio*/
+    .whatsapp {
+        bottom: 40px;
+    }
+
+    .main_header {
+        height: 124px;
+        display: grid;
+        grid-template-columns: 200px auto;
+        justify-content: space-around;
+        align-items: center;
+
+        &_nav {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            justify-content: end;
+            gap: 0 20px;
+
+            img {
+                width: 150px;
+            }
+        }
+    }
+
+
+    .main_header_nav_button {
+        border: 2px solid black;
+        border-radius: 41px;
+        padding: 5px 15px;
+        position: relative;
+        bottom: 5px;
+        text-align: center;
+        width: 145px;
+
+        &:hover {
+            transform: scale(1.1);
+            background-color: #6E6E80;
+            border-radius: 42px;
+        }
+    }
+
+    .main_contenido {
+        padding: 30px;
+    }
+
+    .empresa {
+        position: relative;
+        top: 30px;
+    }
+
+    .quienes_somos {
+        position: relative;
+        top: 90px;
+    }
+
+    .productos {
+        display: grid;
+        grid-template-areas: "title producto1 title producto2 title producto3";
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 140px;
+        justify-content: space-between;
+        position: relative;
+        left: 30px;
+    }
+
+    footer {
+        padding: 19px 0 59px 20px;
+        display: grid;
+        grid-template-columns: 200px auto;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer_links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0 200px;
+    }
+
+    /*Fin página inicio*/
+
+}
+
+/*Fin desktop*/

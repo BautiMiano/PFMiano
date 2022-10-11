@@ -1,0 +1,132 @@
+/*Movile*/
+/*Inicio página contacto*/
+.formulario-img {
+    background-image: url(../img/envase-pet.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contactanos {
+    position: relative;
+    left: 20px;
+}
+
+.formulario {
+    padding: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+
+.formulario_nombre {
+    padding: 5px;
+    position: relative;
+    left: 2px;
+}
+
+.formulario_apellido {
+    padding: 5px;
+}
+
+.formulario_mail {
+    padding: 5px;
+    position: relative;
+    left: 6px;
+}
+
+.formulario_numero {
+    padding: 5px;
+}
+
+.formulario_mensaje {
+    padding: 5px;
+}
+
+.formulario_mensaje_cuadro {
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.formulario_enviar {
+    padding: 35px;
+}
+
+.formulario_enviar_bottom {
+    text-decoration: none;
+    padding: 5px 40px;
+    color: white;
+    border: 2px solid black;
+    background-color: green;
+    border-radius: 41px;
+    text-align: center;
+    height: 36px;
+    box-shadow: 1px 0px 10px 2px greenyellow;
+    position: relative;
+    left: 35px;
+    bottom: 35px;
+}
+
+/*Fin página contacto*/
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+    /*Página Contacto*/
+    .whatsapp {
+        bottom: 40px;
+    }
+
+    .formulario {
+        padding: 25px;
+        font-size: 18px;
+    }
+
+    .formulario_nombre {
+        padding: 25px;
+    }
+
+    .formulario_apellido {
+        padding: 25px;
+    }
+
+    .formulario_mail {
+        padding: 25px;
+    }
+
+    .formulario_numero {
+        padding: 25px;
+    }
+
+    .formulario_mensaje {
+        padding: 25px;
+    }
+
+    .formulario_enviar {
+        padding: 35px;
+    }
+
+    /*Fin página contacto*/
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+
+    /*Página Contacto*/
+    .formulario {
+        padding: 50px;
+    }
+
+    .formulario_enviar_bottom {
+        position: relative;
+        left: 40px;
+    }
+
+    .formulario_enviar {
+        padding: 15px;
+    }
+
+    /*Fin página contacto*/
+}
