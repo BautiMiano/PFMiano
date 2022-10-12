@@ -51,6 +51,10 @@
 
 /*Desktop*/
 @media (min-width: 992px) {
+    ._empresa_logo {
+        position: relative;
+        bottom: 10px;
+    }
 
     /*Inicio página novedades*/
     .nuevos_productos {

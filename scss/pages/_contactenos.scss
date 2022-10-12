@@ -113,6 +113,10 @@
 
 /*Desktop*/
 @media (min-width: 992px) {
+    ._empresa_logo {
+        position: relative;
+        bottom: 10px;
+    }
 
     /*Página Contacto*/
     .formulario {

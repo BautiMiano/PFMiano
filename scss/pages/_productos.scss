@@ -66,6 +66,11 @@
 @media (min-width: 992px) {
 
     /*Inicio página productos*/
+    ._empresa_logo {
+        position: relative;
+        bottom: 10px;
+    }
+
     .productos_compra {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

@@ -68,6 +68,11 @@
 @media (min-width: 768px) {
 
     /*Incio página servicios*/
+    ._empresa_logo {
+        position: relative;
+        bottom: 10px;
+    }
+
     .principal_moto_envios {
         margin: 15px;
     }

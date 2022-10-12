@@ -126,7 +126,7 @@ footer {
         flex-direction: row;
         justify-content: space-around;
     }
-    
+
     .productos {
         display: grid;
         grid-template-areas: "title envase1 title envase2"
@@ -152,6 +152,11 @@ footer {
 @media (min-width: 992px) {
 
     /*Página inicio*/
+    ._empresa_logo {
+        position: relative;
+        bottom: 10px;
+    }
+
     .whatsapp {
         bottom: 40px;
     }

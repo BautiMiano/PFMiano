@@ -8577,6 +8577,9 @@ footer {
 /*Inicio desktop*/
 @media (min-width: 992px) {
   /*Página inicio*/
+  ._empresa_logo {
+    position: relative;
+    bottom: 10px; }
   .whatsapp {
     bottom: 40px; }
   .main_header {
@@ -8718,6 +8721,9 @@ footer {
 
 /*Desktop*/
 @media (min-width: 992px) {
+  ._empresa_logo {
+    position: relative;
+    bottom: 10px; }
   /*Página Contacto*/
   .formulario {
     padding: 50px; }
@@ -8767,6 +8773,9 @@ footer {
 
 /*Desktop*/
 @media (min-width: 992px) {
+  ._empresa_logo {
+    position: relative;
+    bottom: 10px; }
   /*Inicio página novedades*/
   .nuevos_productos {
     padding: 60px; }
@@ -8829,6 +8838,9 @@ footer {
 
 @media (min-width: 992px) {
   /*Inicio página productos*/
+  ._empresa_logo {
+    position: relative;
+    bottom: 10px; }
   .productos_compra {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -8903,6 +8915,9 @@ footer {
 /*Tablet*/
 @media (min-width: 768px) {
   /*Incio página servicios*/
+  ._empresa_logo {
+    position: relative;
+    bottom: 10px; }
   .principal_moto_envios {
     margin: 15px; }
   .moto_envios {
