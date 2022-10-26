@@ -8524,7 +8524,9 @@ a {
   margin: 30px 0px 0px 0px; }
 
 .maquina {
-  width: 320px; }
+  width: 320px;
+  position: relative;
+  right: 10px; }
 
 .descripcion_tecnologia {
   font-size: 20px; }
