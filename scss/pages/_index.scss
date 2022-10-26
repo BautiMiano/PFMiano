@@ -83,7 +83,7 @@ a {
 .maquina{
     width: 320px;
     position: relative;
-    right: 10px;
+    left: 5px;
 }
 .descripcion_tecnologia{
     font-size: 20px;
@@ -157,6 +157,8 @@ footer {
     }
     .maquina{
         width: 350px;
+        position: relative;
+        left: 10px;
     }
     .descripcion_tecnologia{
         font-size: 21px;
