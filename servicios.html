@@ -2,78 +2,99 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Distribuidora de envases plasticos">
-    <meta name="keywords" content="páginas web, mobile first, html5, css3, sass, responsive, ecomerce, apps a medida, bootstrap">
-    <link rel="shortcut icon" href="./img/logo-de-la-empresa.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/estilos.css">
-    <title>Baniplast</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Detalle de servicios que brinda BN" />
+    <link rel="shortcut icon" href="./img/logo-de-la-empresa.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <title>Servicios - Baniplast</title>
 </head>
 
 <body>
-    <header class="main_header">
-        <div class="_empresa_logo">
-            <a href="./index.html">
-                <img src="img/logo-de-la-empresa.svg" alt="Logo de la empresa" height="146px">
-            </a>
-        </div>
-        <nav>
-            <!--Incio de la barra de navegación-->
-
-            <ul class="main_header_nav">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./novedades.html">Novedades</a></li>
-                <li class="main_header_nav_button"><a href="contactenos.html">Contacto</a></li>
-            </ul>
-
+    <header>
+        <!--Incio de la barra de navegación-->
+        <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/logo-de-la-empresa.svg" alt="logo de la empresa" width="130px" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav nav-tabs ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./novedades.html">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bg-cta" href="./contactenos.html">Contactenos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <section>
         <article>
-            <div class="servicios_prestados">
-                <div class="principal_moto_envios">
-                    <img src="./img/moto_envios.png" class="moto_envios" alt="">
-                    <h4 class="parrafo_servicios">servicio de mensajería.</h4>
+            <div class="article_servicios_prestados">
+                <div class="ariticle_moto_fondo">
+                    <img src="./img/moto_envios.webp" class="article_moto_img" alt="" />
+                    <h4 class="article_moto_parrafo">Servicio de mensajería.</h4>
                 </div>
-                <div class="principal_camion_envios">
-                    <img src="./img/camion_envios.png" class="camion_envios" alt="">
-                    <h4 class="parrafo_servicios">Envíos a todo el país.</h4>
+                <div class="ariticle_camion_fondo">
+                    <img src="./img/camion_envios.webp" class="article_camion_img" alt="" />
+                    <h4 class="article_camion_parrafo">Envíos a todo el país.</h4>
                 </div>
-                <div class="principal_asesoramiento_telefono">
-                    <img src="./img/asesoramiento_telefono.png" class="asesoramiento_telefono" alt="">
-                    <h4 class="parrafo_servicios">Asesoramiento técnico.</h4>
+                <div class="article_telefono_fondo">
+                    <img src="./img/asesoramiento_telefono.webp" class="article_telefono_img" alt="" />
+                    <h4 class="article_telefono_parrafo">Asesoramiento técnico.</h4>
                 </div>
-                <div class="principal_metodo_de_pago">
-                    <img src="./img/metodo_de_pago.png" class="metodo_de_pago" alt="">
-                    <h4 class="parrafo_servicios">Opciones de pago: efectivo, mercado pago, transferencia electrónica.
+                <div class="article_pago_fondo">
+                    <img src="./img/metodo_de_pago.webp" class="article_pago_img" alt="" />
+                    <h4>
+                        Opciones de pago: efectivo, mercado pago, transferencia
+                        electrónica.
                     </h4>
                 </div>
-                <div class="principal_logo_servicios">
-                    <img src="./img/logo_servicios.png" class="logo_servicios" alt="">
-                    <h4 class="parrafo_servicios">Impresión personalizada de su marca.</h4>
+                <div class="article_logo_fondo">
+                    <img src="./img/logo_servicios.webp" class="article_logo_img" alt="" />
+                    <h4>
+                        Impresión personalizada de su marca.
+                    </h4>
                 </div>
             </div>
         </article>
     </section>
     <!-- Logos Whatsapp-->
-    <div class="whatsapp ">
+    <div class="whatsapp">
         <a href="https://api.whatsapp.com/send?phone=5491176494223" target="_blank">
-            <img src="./img/logo-whatsapp.svg" alt="Whatsapp" width="100" height="100">
+            <img src="./img/logo-whatsapp.svg" alt="Whatsapp" width="100" height="100" />
         </a>
     </div>
     <!--Inicio del pie de página-->
     <footer>
         <div class="footer_links">
-            <a href="tel:11 7649-4223" class="llamenos">Cel:11 7649-4223</a>
-            <a href="mailto:info.baniplast@gmail.com" class="email">Gmail</a>
-            <a href="./contactenos.html" class="formu__">Formulario</a>
+            <a href="tel:11 7649-4223" class="footer_llamenos">Cel:11 7649-4223</a>
+            <a href="mailto:info.baniplast@gmail.com" class="footer_email">Gmail</a>
+            <a href="./contactenos.html" class="footer_formulario">Formulario</a>
         </div>
     </footer>
-
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

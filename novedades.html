@@ -2,68 +2,88 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Distribuidora de envases plasticos">
-    <meta name="keywords" content="páginas web, mobile first, html5, css3, sass, responsive, ecomerce, apps a medida, bootstrap">
-    <link rel="shortcut icon" href="./img/logo-de-la-empresa.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/estilos.css">
-    <title>Baniplast</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Aqui te estaras enterando de las ultimas novedades de BN" />
+    <link rel="shortcut icon" href="./img/logo-de-la-empresa.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <title>Novedades - Baniplast</title>
 </head>
 
 <body>
-    <header class="main_header">
-        <div class="_empresa_logo">
-            <a href="./index.html">
-                <img src="img/logo-de-la-empresa.svg" alt="Logo de la empresa" height="146px">
-            </a>
-        </div>
-        <nav>
-            <!--Incio de la barra de navegación-->
-
-            <ul class="main_header_nav">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./novedades.html">Novedades</a></li>
-                <li class="main_header_nav_button"><a href="contactenos.html">Contacto</a></li>
-            </ul>
-
+    <header>
+        <!--Incio de la barra de navegación-->
+        <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/logo-de-la-empresa.svg" alt="logo de la empresa" width="130px" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav nav-tabs ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./novedades.html">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bg-cta" href="./contactenos.html">Contactenos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-
     </header>
-    <!-- Logos Whatsapp-->
 
     <section>
         <article>
-            <div class="nuevos_productos">
-                <h1>En este sector estaremos incorporando todas las novedades de los últimos productos de Baniplast</h1>
+            <div class="article_novedades_titulo">
+                <h1>
+                    En este sector estaremos incorporando todas las novedades de los
+                    últimos productos de Baniplast
+                </h1>
             </div>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./img/boton_nuevo.webp" class="boton_nuevo" alt="">
-                        <img src="./img/novedades2.webp" class="d-block w-100" alt="envase:campanita x 500cc"
-                            title="Envase: campanita x 500cc PVC color">
+                        <img src="./img/boton_nuevo.webp" class="article_novedades_img-center" alt="" />
+                        <img src="./img/novedades1.webp" class="d-block " alt="..." width="500px">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/boton_nuevo.webp" class="boton_nuevo" alt="">
-                        <img src="./img/novedades4.webp" class="d-block w-100"
-                            alt="Envase: campanita x 250cc PVC Cristal" title="Envase: campanita x 250cc PVC Cristal">
+                        <img src="./img/boton_nuevo.webp" class="article_novedades_img-center" alt="" />
+                        <img src="./img/novedades2.webp" class="d-block " alt="..." width="500px">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/boton_nuevo.webp" class="boton_nuevo" alt="">
-                        <img src="./img/novedades5.png" class="d-block w-100" alt="Envase: cónico x 200cc PET cristal"
-                            title="Envase: cónico x 200cc PET cristal">
+                        <img src="./img/boton_nuevo.webp" class="article_novedades_img-center" alt="" />
+                        <img src="./img/novedades4.webp" class="d-block " alt="..." width="500px">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
@@ -72,19 +92,20 @@
         </article>
     </section>
     <!-- Logos Whatsapp-->
-    <div class="whatsapp ">
+    <div class="whatsapp">
         <a href="https://api.whatsapp.com/send?phone=5491176494223" target="_blank">
-            <img src="./img/logo-whatsapp.svg" alt="Whatsapp" width="100" height="100">
+            <img src="./img/logo-whatsapp.svg" alt="Whatsapp" width="100" height="100" />
         </a>
     </div>
     <!--Inicio del pie de página-->
     <footer>
         <div class="footer_links">
-            <a href="tel:11 7649-4223" class="llamenos">Cel:11 7649-4223</a>
-            <a href="mailto:info.baniplast@gmail.com" class="email">Gmail</a>
-            <a href="./contactenos.html" class="formu__">Formulario</a>
+            <a href="tel:11 7649-4223" class="footer_llamenos">Cel:11 7649-4223</a>
+            <a href="mailto:info.baniplast@gmail.com" class="footer_email">Gmail</a>
+            <a href="./contactenos.html" class="footer_formulario">Formulario</a>
         </div>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>

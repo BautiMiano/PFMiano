@@ -1,69 +1,69 @@
 /*Movile*/
 /*Inicio página contacto*/
-.formulario-img {
+.main_formulario-img {
     background-image: url(../img/envase-pet.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.contactanos {
+.main_formulario_titulo {
     position: relative;
     left: 20px;
 }
 
-.formulario {
+.main_formulario {
     padding: 5px;
-    color: white;
+    color: $primary;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 15px;
 }
 
-.formulario_nombre {
+.main_formulario_nombre {
     padding: 5px;
     position: relative;
     left: 2px;
 }
 
-.formulario_apellido {
+.main_formulario_apellido {
     padding: 5px;
 }
 
-.formulario_mail {
+.main_formulario_mail {
     padding: 5px;
     position: relative;
     left: 6px;
 }
 
-.formulario_numero {
+.main_formulario_numero {
     padding: 5px;
 }
 
-.formulario_mensaje {
+.main_formulario_mensaje {
     padding: 5px;
 }
 
-.formulario_mensaje_cuadro {
+.main_formulario_mensaje_cuadro {
     border: 2px solid;
     border-radius: 4px;
 }
 
-.formulario_enviar {
+.main_formulario_enviar {
     padding: 35px;
 }
 
 .formulario_enviar_bottom {
     text-decoration: none;
     padding: 5px 40px;
-    color: white;
-    border: 2px solid black;
-    background-color: green;
+    color: $primary;
+    border: 2px solid $dark;
+    background-color: $green;
     border-radius: 41px;
     text-align: center;
     height: 36px;
-    box-shadow: 1px 0px 10px 2px greenyellow;
+    box-shadow: 1px 0px 10px 2px $green;
     position: relative;
     left: 35px;
     bottom: 35px;
@@ -79,32 +79,32 @@
         bottom: 40px;
     }
 
-    .formulario {
+    .main_formulario {
         padding: 25px;
         font-size: 18px;
     }
 
-    .formulario_nombre {
+    .main_formulario_nombre {
         padding: 25px;
     }
 
-    .formulario_apellido {
+    .main_formulario_apellido {
         padding: 25px;
     }
 
-    .formulario_mail {
+    .main_formulario_mail {
         padding: 25px;
     }
 
-    .formulario_numero {
+    .main_formulario_numero {
         padding: 25px;
     }
 
-    .formulario_mensaje {
+    .main_formulario_mensaje {
         padding: 25px;
     }
 
-    .formulario_enviar {
+    .main_formulario_enviar {
         padding: 35px;
     }
 
@@ -119,7 +119,7 @@
     }
 
     /*Página Contacto*/
-    .formulario {
+    .main_formulario {
         padding: 50px;
     }
 
@@ -128,7 +128,7 @@
         left: 40px;
     }
 
-    .formulario_enviar {
+    .main_formulario_enviar {
         padding: 15px;
     }
 

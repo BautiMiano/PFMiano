@@ -1,11 +1,11 @@
 /*Movile*/
 /*Página prodocutos */
-.productos_compra {
+.article_wrapper_productos {
     display: flex;
     flex-direction: column;
 }
 
-.frasco_1 {
+.article_wrapper_productos_frasco-1 {
     margin: 15px;
     background-color: white;
     padding: 15px;
@@ -15,7 +15,7 @@
     @include box-shadow(3);
 }
 
-.envase_9 {
+.article_wrapper_productos_frasco-9 {
     margin: 15px;
     background-color: white;
     padding: 15px;
@@ -25,8 +25,8 @@
     @include box-shadow(3);
 }
 
-.informacion {
-    background: radial-gradient(circle, #6E6E80 0%, $cta 100%);
+.article_texto {
+    background: radial-gradient(circle, $secondary 0%, $cta 100%);
     border-radius: 42px;
     padding: 10px 5px 10px 5px;
     margin: 10px;
@@ -38,24 +38,24 @@
 @media (min-width: 768px) {
 
     /*Página productos*/
-    .frasco_1 {
+    .article_wrapper_productos_frasco-1 {
         margin: 30px;
         @include box-shadow(3);
     }
 
-    .productos_compra {
+    .article_wrapper_productos {
         display: grid;
         grid-area: auto;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: "envase_9 envase_9";
+        grid-template-areas: "article_wrapper_productos_frasco-9 article_wrapper_productos_frasco-9";
     }
 
-    .productos_compra .envase_9 {
-        grid-column-start: envase_9;
-        grid-column-end: envase_9;
+    .article_wrapper_productos .article_wrapper_productos_frasco-9 {
+        grid-column-start: article_wrapper_productos_frasco-9;
+        grid-column-end: article_wrapper_productos_frasco-9;
     }
 
-    .envase_9 {
+    .article_wrapper_productos_frasco-9 {
         margin: 30px;
         @include box-shadow(3);
     }
@@ -71,12 +71,12 @@
         bottom: 10px;
     }
 
-    .productos_compra {
+    .article_wrapper_productos {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: "envase_1 envase_2 envase_3"
             "envase_4 envase_5 envase_6"
-            "envase_7 envase_8 envase_9";
+            "envase_7 envase_8 article_wrapper_productos_frasco-9";
         align-items: center;
 
         :hover {
@@ -85,18 +85,18 @@
         }
     }
 
-    .frasco_1 {
+    .article_wrapper_productos_frasco-1 {
         margin: 100px;
         @include box-shadow(3);
 
     }
 
-    .envase_9 {
+    .article_wrapper_productos_frasco-9 {
         margin: 100px;
         @include box-shadow(3);
     }
 
-    .envase .informacion {
+    .article_wrapper_productos .article_texto {
         margin: 15px;
     }
 

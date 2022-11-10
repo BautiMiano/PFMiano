@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Distribuidora de envases plasticos">
-    <meta name="keywords" content="páginas web, mobile first, html5, css3, sass, responsive, ecomerce, apps a medida, bootstrap">
     <link rel="shortcut icon" href="./img/logo-de-la-empresa.ico" type="image/x-icon">
     <!-- CSS only -->
     <link rel="stylesheet" href="./css/estilos.css">
@@ -14,21 +13,38 @@
 </head>
 
 <body>
-    <header class="main_header">
-        <div class="_empresa_logo">
-            <a href="./index.html">
-                <img src="img/logo-de-la-empresa.svg" alt="Logo de la empresa" height="146px">
-            </a>
-        </div>
-        <nav>
-            <!--Incio de la barra de navegación-->
-            <ul class="main_header_nav">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./novedades.html">Novedades</a></li>
-                <li class="main_header_nav_button"><a href="contactenos.html">Contacto</a></li>
-            </ul>
+    <header>
+        <!--Incio de la barra de navegación-->
+        <nav class="navbar navbar-expand-lg bg-secondary ">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/logo-de-la-empresa.svg" alt="logo de la empresa" width="130px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav nav-tabs ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./novedades.html">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bg-cta" href="./contactenos.html">Contactenos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -36,27 +52,28 @@
     <!--Incio del contenido-->
     <main class="main_contenido">
         <div>
-            <h1 class="empresa">Baniplast</h1>
-            <h3 class="quienes_somos">Es un emprendimiento familiar que se inició en el año 2022. <h3
-                    class="quienes_somos">Tiene la representación de las principales industrias plásticas de la
+            <h1 class="main_contenido_titulo">Baniplast</h1>
+            <h4 class="main_contenido_parrafo">Es un emprendimiento familiar que se inició en el año 2022. <h4
+                    class="main_contenido_parrafo">Tiene la representación de las principales industrias plásticas de la
                     Argentina y se dedica comercialmente a distribuir envases plásticos para distintos rubros:
-                    cosmético, artístico , veterinario, higiene y perfumería, entre otros.</h3>
-            </h3>
+                    cosmético, artístico , veterinario, higiene y perfumería, entre otros.</h4>
+            </h4>
         </div>
         <section>
             <article>
-                <div class="productos ">
-                    <div class="card envase_1 " style="width: 280px;">
+                <div class="article_productos ">
+                    <div class="card article_envase_1 " style="width: 280px;">
                         <img src="./img/envase1.webp" class="card-img-top" alt="Frasco Level cc 70">
                         <div class="card-body">
                             <h5 class="card-title">Frasco Level cc 70</h5>
                             <p class="card-text">Envase para laboratorio y farmacias.</p>
-                            <a href="./productos.html" class="btn btn-secondary p-2 d-flex justify-content-center ">Vista
+                            <a href="./productos.html"
+                                class="btn btn-secondary p-2 d-flex justify-content-center ">Vista
                                 de productos</a>
                         </div>
                     </div>
-                    <div class="card envase_2" style="width: 280px;">
-                        <img src="./img/envase7.webp" class="card-img-top p-3" alt="Frasco Level cc 125">
+                    <div class="card article_envase_2" style="width: 280px;">
+                        <img src="./img/envase2.webp" class="card-img-top p-3" alt="Frasco Level cc 125">
                         <div class="card-body">
                             <h5 class="card-title">Frasco Level cc 125</h5>
                             <p class="card-text">Envase para laboratorio y farmacias.</p>
@@ -64,7 +81,7 @@
                                 de productos</a>
                         </div>
                     </div>
-                    <div class="card envase_3" style="width: 280px;">
+                    <div class="card article_envase_3" style="width: 280px;">
                         <img src="./img/envase3.webp" class="card-img-top p-3" alt="Frasco Level cc 50">
                         <div class="card-body">
                             <h5 class="card-title">Frasco Level cc 50</h5>
@@ -73,14 +90,27 @@
                                 de productos</a>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <h2 class="tecnologia_calidad">Tecnología y Calidad</h2>
-                        <div class="contendor">
-                            <p class="descripcion_tecnologia">Nuestros proovedores cuentan con maquinarias de última generación, las cuales producen envases de alta perfomance y diseño. Además nos brindan la auditoria de sus departamenos de calidad para la elaboración de cada producto. La experiencia y dedicación en la búsqueda de la calidad son las principales ventajas que nuestros proovedores nos permiten brindarle a cada uno de nuestros clientes.</p>
-                            <img src="img/maquina.webp" alt="maquina de envases" title="maquina de envases" class="maquina">
-
+                    <div class="card article_envase_4" style="width: 280px;">
+                        <img src="./img/envase4.webp" class="card-img-top p-3" alt="Frasco Level cc 50">
+                        <div class="card-body">
+                            <h5 class="card-title">Frasco Level cc 50</h5>
+                            <p class="card-text">Envase para laboratorio y farmacias.</p>
+                            <a href="./productos.html" class="btn btn-secondary p-2 d-flex justify-content-center">Vista
+                                de productos</a>
                         </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="article_titulo">Tecnología y Calidad</h2>
+                    <div class="article_wrapper">
+                        <p class="article_parrafo">Nuestros proovedores cuentan con maquinarias de última
+                            generación, las cuales producen envases de alta perfomance y diseño. Además nos brindan la
+                            auditoria de sus departamenos de calidad para la elaboración de cada producto. La
+                            experiencia y dedicación en la búsqueda de la calidad son las principales ventajas que
+                            nuestros proovedores nos permiten brindarle a cada uno de nuestros clientes.</p>
+                        <img src="img/maquina.webp" alt="maquina de envases" title="maquina de envases" class="article_img">
+                    </div>
                 </div>
             </article>
         </section>
@@ -96,9 +126,9 @@
     <footer>
         <section>
             <div class="footer_links">
-                <a href="tel:11 7649-4223" class="llamenos">Cel:11 7649-4223</a>
-                <a href="mailto:info.baniplast@gmail.com" class="email">Gmail</a>
-                <a href="./contactenos.html" class="formu__">Formulario</a>
+                <a href="tel:11 7649-4223" class="footer_llamenos">Cel:11 7649-4223</a>
+                <a href="mailto:info.baniplast@gmail.com" class="footer_email">Gmail</a>
+                <a href="./contactenos.html" class="footer_formulario">Formulario</a>
             </div>
         </section>
     </footer>

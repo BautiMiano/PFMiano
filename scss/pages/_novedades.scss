@@ -1,71 +1,76 @@
 /*Movile*/
 /*Inicio página novedades*/
 
-.nuevos_productos {
+.article_novedades_titulo {
     text-align: center;
     padding: 30px;
     color: #41415c;
 }
 
-.carousel-inner {
-    margin: auto;
+.carousel-item {
+    position: relative;
+    right: 50px;
 }
 
-.carousel-item {
-    width: 360px;
-    align-items: center;
-    text-align: center;
-    margin: 8px;
-    background-color: white;
+.carousel-inner {
+    background-color: $cta;
     border: solid;
     border-radius: 5px;
+    margin-bottom: 50px;
 }
 
-.boton_nuevo {
+.article_novedades_img-center {
     width: 170px;
+    position: relative;
+    left: 160px;
 }
 
 /*Fin página novedades*/
-
 /*Tablet*/
 @media (min-width: 768px) {
 
     /*Inicio página novedades*/
-    .nuevos_productos {
+    .article_novedades_titulo {
         padding: 50px;
     }
 
     .carousel-item {
         position: relative;
-        left: 150px;
-        width: 450px;
+        left: 140px;
     }
 
-    .boton_nuevo {
+    .carousel-inner {
+        background-color: $cta;
+        border: solid;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+
+    .article_novedades_img-center {
         width: 200px;
         align-items: center;
     }
 
     /*Fin página novedades*/
+
 }
 
 /*Desktop*/
 @media (min-width: 992px) {
-    ._empresa_logo {
-        position: relative;
-        bottom: 10px;
+    .carousel-item {
+        left: 700px;
     }
 
-    /*Inicio página novedades*/
-    .nuevos_productos {
+    .article_novedades_titulo {
         padding: 60px;
     }
 
-    .carousel-item {
-        margin: 150px;
-        width: 550px;
-        position: relative;
-        left: 500px;
+    .carousel-inner {
+        background-color: $cta;
+        border: solid;
+        border-radius: 5px;
+        margin-bottom: 50px;
+
     }
 
     /*Fin página novedades*/
