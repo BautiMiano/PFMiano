@@ -21,20 +21,19 @@ a {
     right: 0;
 }
 
-
 .main_contenido {
     text-align: center;
     padding: 25px;
-}
 
-.main_contenido_titulo {
-    position: relative;
-    top: 9px;
-}
+    &_titulo {
+        position: relative;
+        top: 9px;
+    }
 
-.main_contenido_parrafo {
-    position: relative;
-    top: 15px;
+    &_parrafo {
+        position: relative;
+        top: 15px;
+    }
 }
 
 .article_productos {
@@ -45,22 +44,22 @@ a {
     justify-content: center;
 }
 
-.article_titulo {
+.article_tecnologia_titulo {
     border: 5px solid $dark;
     border-radius: 42px;
 }
 
-.article_wrapper {
+.article_tecnologia_wrapper {
     margin: 30px 0px 0px 0px;
 }
 
-.article_img {
+.article_teconologia_img {
     width: 320px;
     position: relative;
     left: 5px;
 }
 
-.article_parrafo {
+.article_tecnologia_parrafo {
     font-size: 20px;
 }
 
@@ -117,21 +116,21 @@ footer {
         align-items: center;
     }
 
-    .article_wrapper {
+    .article_tecnologia_wrapper {
         display: flex;
         margin: 80px 40px;
         align-items: center;
         text-align: center;
-    }
 
-    .article_img {
-        width: 350px;
-        position: relative;
-        left: 10px;
-    }
+        &_parrafo {
+            font-size: 21px;
+        }
 
-    .article_parrafo {
-        font-size: 21px;
+        &_img {
+            width: 350px;
+            position: relative;
+            left: 10px;
+        }
     }
 
     .footer_links {
@@ -158,16 +157,16 @@ footer {
 
     .main_contenido {
         padding: 30px;
-    }
 
-    .main_contenido_titulo {
-        position: relative;
-        top: 30px;
-    }
+        &_titulo {
+            position: relative;
+            top: 30px;
+        }
 
-    .main_contenido_parrafo {
-        position: relative;
-        top: 90px;
+        &_parrafo {
+            position: relative;
+            top: 90px;
+        }
     }
 
     .article_productos {
@@ -180,22 +179,22 @@ footer {
         left: 30px;
     }
 
-    .article_titulo:hover {
+    .article_tecnologia_titulo:hover {
         background-color: $secondary;
     }
 
-    .article_wrapper {
+    .article_tecnologia_wrapper {
         display: flex;
         margin: 80px 40px;
         align-items: center;
         text-align: center;
     }
 
-    .article_img {
+    .article_teconologia_img {
         width: 650px;
     }
 
-    .article_parrafo {
+    .article_tecnologia_parrafo {
         font-size: 23px;
     }
 

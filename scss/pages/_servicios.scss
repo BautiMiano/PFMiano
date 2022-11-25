@@ -1,11 +1,15 @@
 /*Movile*/
 /*Página servicios*/
+.article_servicios_titulo{
+    text-align: center;
+    padding-top: 80px;
+    text-decoration-line: underline;
+}
 .article_servicios_prestados {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 130px;
-
 }
 
 .ariticle_moto_fondo {
